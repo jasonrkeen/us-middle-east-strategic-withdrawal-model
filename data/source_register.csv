@@ -1,0 +1,14 @@
+source_id,source,indicator_or_use,frequency,access_url,model_role,last_verified
+EIA_HORMUZ_2025,U.S. Energy Information Administration,"Hormuz oil and LNG flows; bypass capacity",Periodic,https://www.eia.gov/todayinenergy/detail.php?id=65504,Baseline context,2026-07-27
+EIA_STEO_2026,U.S. Energy Information Administration,"Global oil production and price outlook",Monthly,https://www.eia.gov/outlooks/steo/report/global_oil.php,Energy scenario context,2026-07-27
+IMF_PORTWATCH,International Monetary Fund,"Port calls; maritime trade; chokepoint disruption",Weekly,https://portwatch.imf.org/pages/data-and-methodology,Shipping context,2026-07-27
+IMF_WEO_2026,International Monetary Fund,"GDP; inflation; fiscal and current-account indicators",Semiannual,https://data.imf.org/en/datasets/IMF.RES%3AWEO,Macroeconomic baseline,2026-07-27
+WORLD_BANK_WDI,World Bank,"Development; trade; fiscal and macroeconomic indicators",Variable,https://data.worldbank.org/,Country context,2026-07-29
+WORLD_BANK_WGI,World Bank,"Political stability; government effectiveness; governance",Annual,https://www.worldbank.org/en/publication/worldwide-governance-indicators,Institutional context,2026-07-27
+SIPRI_MILEX_2025,Stockholm International Peace Research Institute,"Military expenditure through 2025",Annual,https://www.sipri.org/databases/milex,Security capacity context,2026-07-27
+FRED_MARKETS,Federal Reserve Bank of St. Louis,"Brent; VIX; inflation expectations; dollar index",Daily and monthly,https://fred.stlouisfed.org/,Market context,2026-07-29
+EIA_EVENT_HISTORY,U.S. Energy Information Administration,"Historical oil and supply-disruption events",Event dates,https://www.eia.gov/kids/history-of-energy/timelines/oil-petroleum.php,Historical backtesting,2026-07-29
+CENTCOM_RELEASES,U.S. Central Command,"Documented regional military and maritime events",Event dates,https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/,Historical backtesting,2026-07-29
+SUEZ_CANAL_AUTHORITY,Suez Canal Authority,"Ever Given blockage and refloating",Event record,https://www.suezcanal.gov.eg/English/MediaCenter/News/Pages/nav_29-03-2021.aspx,Historical backtesting,2026-07-29
+ACLED,Armed Conflict Location and Event Data,"Conflict events and fatalities",Near real time,https://acleddata.com/,Optional conflict validation,2026-07-27
+UN_COMTRADE,United Nations,"Bilateral trade and commodity exposure",Monthly and annual,https://comtradeplus.un.org/,Trade-exposure extension,2026-07-27

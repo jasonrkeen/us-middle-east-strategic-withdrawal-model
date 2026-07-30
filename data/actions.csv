@@ -1,0 +1,14 @@
+action_id,action,description,security_weight,opportunity_weight,capacity_requirement,escalation_cost,economic_cost,diplomatic_action,security_substitution,effect_tension,effect_maritime,effect_arms,effect_hedging,effect_energy_buffer
+defense_build_up,Increase defense spending,"Accelerate procurement, readiness, and indigenous defense capacity.",0.90,0.35,0.68,0.48,0.72,0,1,0.035,0.005,0.105,0.010,0.000
+alternative_security_partnership,Seek alternative security partnerships,"Broaden defense relationships, basing access, or security cooperation.",0.83,0.50,0.42,0.25,0.38,1,1,-0.010,0.000,0.025,0.115,0.000
+accommodation,Regional accommodation,"Reduce immediate exposure through dialogue, bargains, or de-escalatory arrangements.",0.62,0.30,0.22,0.15,0.18,1,0,-0.090,-0.035,-0.015,0.075,0.000
+unilateral_action,Unilateral military action,"Use independent force to shape threats or preserve deterrence.",0.78,0.78,0.70,0.96,0.82,0,0,0.180,0.075,0.055,-0.015,0.000
+proxy_pressure,Expand proxy or partner pressure,"Use aligned groups or partners to test and shape the regional balance.",0.52,0.93,0.34,0.84,0.38,0,0,0.135,0.060,0.020,-0.010,0.000
+maritime_coercion,Maritime coercion or disruption,"Threaten, impede, or impose costs on strategic shipping corridors.",0.55,0.90,0.55,0.98,0.65,0,0,0.110,0.210,0.015,-0.010,0.000
+diplomatic_expansion,Expand diplomatic and economic influence,"Use mediation, investment, trade, or institutional leadership to gain influence.",0.35,0.72,0.27,0.12,0.30,1,0,-0.025,-0.010,0.000,0.135,0.000
+arms_market_expansion,Expand arms-market position,"Offer weapons, training, technology, or financing to regional partners.",0.45,0.76,0.50,0.36,0.45,0,1,0.020,0.000,0.075,0.035,0.000
+nuclear_hedging,Nuclear or strategic hedging,"Increase nuclear latency, strategic signaling, or related hedging behavior.",0.88,0.72,0.86,1.00,0.88,0,1,0.145,0.015,0.135,0.000,0.000
+energy_route_diversification,Diversify energy routes,"Invest in pipelines, terminals, suppliers, and routes that reduce chokepoint exposure.",0.70,0.34,0.78,0.10,0.80,0,0,-0.010,-0.025,0.000,0.020,0.145
+strategic_stockpiling,Increase strategic stockpiles,"Increase petroleum, LNG, or critical-input inventories.",0.62,0.25,0.60,0.08,0.50,0,0,0.000,-0.010,0.000,0.010,0.100
+domestic_stabilization,Prioritize domestic stabilization,"Use fiscal, political, and internal-security measures to absorb external pressure.",0.58,0.18,0.48,0.10,0.48,0,0,-0.035,-0.005,0.000,0.015,0.035
+

@@ -1,0 +1,7 @@
+scenario_id,scenario,description,force_reduction,withdrawal_speed,residual_capability,security_guarantee
+baseline,Current posture baseline,"July 2026 reference posture; no additional withdrawal shock.",0.00,0.00,1.00,1.00
+limited_drawdown,Limited drawdown,"Selected force and facility reductions with substantial residual capability.",0.30,0.35,0.72,0.85
+combat_exit,Combat-force withdrawal,"Combat forces leave while naval access, intelligence, arms support, and guarantees remain.",0.60,0.60,0.42,0.70
+full_military_withdrawal,Full military withdrawal,"Most forces, bases, and operational support leave; weakened guarantees remain.",0.85,0.85,0.10,0.45
+strategic_disengagement,Strategic disengagement,"Military withdrawal plus sharply reduced guarantees, assistance, and diplomatic engagement.",1.00,1.00,0.02,0.05
+
