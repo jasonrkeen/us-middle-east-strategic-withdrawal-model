@@ -21,6 +21,27 @@ The model combines:
 > backtests selected economic-transmission assumptions but does not claim
 > causal identification.
 
+## Deterministic offline sample and validation status
+
+Use Python 3.13.5 in an activated virtual environment:
+
+```bash
+python -m pip install -r requirements.txt
+python sample_run.py
+```
+
+The isolated sample uses the existing versioned actor/scenario assumptions, seed **20260727**, **4,000 runs per scenario**, and **20 quarters**. Nine CSVs, an interpretation note, and a provenance/hash manifest go to a new `output/sample/` directory. Existing destinations are refused; repeat with `python sample_run.py --output-dir output/sample/repeat`.
+
+| Item | Status and evidence |
+| --- | --- |
+| Environment | Exact runtime/transitive pins in [requirements.txt](requirements.txt); separate [test dependencies](requirements-dev.txt). Python 3.13.5 is the test target. |
+| Sample scope | Original actor-choice, state-transition, economic-output, vulnerability, and sensitivity methods using versioned assumptions. No live refresh, market overlay, or historical-calibration run. |
+| Verification | 27 tests pass locally: existing model/calibration/context checks plus arithmetic, repeatability, bounds, quantiles, offline execution, and preservation tests. [Windows/Ubuntu results](https://github.com/jasonrkeen/us-middle-east-strategic-withdrawal-model/actions/workflows/tests.yml) provide run-specific evidence and artifacts. |
+| Preservation | [Hashes](tests/preserved_files.json) protect original code, inputs, published artifacts, tests, and changelog. Structural coefficients and calibration-promotion rules are unchanged. No new release. |
+| Limits | Conditional model outputs, not forecasts or new observations. Same-environment byte repeatability is tested; cross-platform identity, published-report reproduction, and predictive validity are not claimed. |
+
+Run checks with `python -m pip install -r requirements-dev.txt`, `python -m pip check`, and `python -m pytest -q`. See the [reproduction guide](docs/offline_reproduction.md). The original `main.py` writes fixed paths under `output/`; use a separate working copy to preserve existing local artifacts when running it.
+
 ## Version 1.2 historical backtesting
 
 Version 1.2 adds:
@@ -143,7 +164,7 @@ reported but not activated.
 
 ## Installation
 
-Python 3.10 or newer is recommended.
+Use Python 3.13.5 for the pinned environment.
 
 ### PowerShell
 
@@ -190,7 +211,8 @@ the versioned scenario or exposure assumptions.
 Run validation tests:
 
 ```bash
-pytest -q
+python -m pip install -r requirements-dev.txt
+python -m pytest -q
 ```
 
 ## Output

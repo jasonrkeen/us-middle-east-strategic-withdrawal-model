@@ -28,7 +28,9 @@ python main.py --runs 10000
 python main.py --refresh-data
 pytest -q
 ```
-- Tests: 3 Python test file(s) under `tests/`; framework appears to be pytest. Add/update tests with any logic change.
+- Use Python 3.13.5 and pinned requirements. Install `requirements-dev.txt` and run `python -m pytest -q`.
+- Offline sample: `python sample_run.py`; it does not refresh live data or promote historical calibration coefficients.
+- Preserve original model/input/test/published-artifact hashes unless changes are explicitly authorized.
 
 ## Conventions observed
 - Functions use type hints; keep annotating new code.

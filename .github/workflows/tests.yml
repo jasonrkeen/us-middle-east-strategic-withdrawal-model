@@ -1,0 +1,30 @@
+name: Offline reproduction and model regression tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.5'
+          cache: pip
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pip check
+      - run: python -m pytest -q
+      - run: python sample_run.py --output-dir "${{ runner.temp }}/withdrawal-sample"
+      - name: Verify tracked files remain unchanged
+        run: git diff --exit-code
+      - uses: actions/upload-artifact@v4
+        with:
+          name: withdrawal-sample-${{ matrix.os }}
+          path: ${{ runner.temp }}/withdrawal-sample/
+          if-no-files-found: error

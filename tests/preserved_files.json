@@ -1,0 +1,113 @@
+{
+  "reference_commit": "8c57aa11a86dbc411a87d8bb0cbee0690d3c3f98",
+  "files": {
+    "CHANGELOG.md": {
+      "text_lf": true,
+      "sha256": "110a6b5e1aa4707151e4c2af9747a8a8dc73115a42e94d9f5036ca33f1546f98"
+    },
+    "data/actions.csv": {
+      "text_lf": true,
+      "sha256": "07d519b82d7de4f1ed5bdb176f3666c910b86ea08d5be42dc2025ac2aee983fa"
+    },
+    "data/actor_action_affinity.csv": {
+      "text_lf": true,
+      "sha256": "6bfb7ba525dcd9f454da23ea5d68d660d2bed3bb7f63ee7677fca6edc5ea6d39"
+    },
+    "data/actors.csv": {
+      "text_lf": true,
+      "sha256": "e20a3806437ac1550181475e7af1d70acadfcd8a6c32b24ea531151c0950664f"
+    },
+    "data/country_exposures.csv": {
+      "text_lf": true,
+      "sha256": "382810b018dfb63308e2c0c4f9c5ff1bb50fba2621116e58177eff7be0fa6758"
+    },
+    "data/historical_analogues.csv": {
+      "text_lf": true,
+      "sha256": "7e3a9e3a956ff178658ffd19792363e3dc3efedbed461ac51e84102ab90bd83b"
+    },
+    "data/historical_event_registry.csv": {
+      "text_lf": true,
+      "sha256": "b988a7872ef72f4eae43bfab1ab209f0dcb8365b9cb1922e1ea52dbf4150666d"
+    },
+    "data/scenarios.csv": {
+      "text_lf": true,
+      "sha256": "b431999bd48ce23300d2b80a36bc0182206e0a6eed4c121fc073d53e2c0518b4"
+    },
+    "data/source_register.csv": {
+      "text_lf": true,
+      "sha256": "20a9eb6f626f4efb0f9faa04232828df73bc6f2411c14a6fd2c4a37a3a7432f0"
+    },
+    "main.py": {
+      "text_lf": true,
+      "sha256": "ded59b675c91deffc8fdc41a21399779e42038aed49d9c95f555bbf6db89eaa2"
+    },
+    "output/charts/actor_action_probability_heatmap.png": {
+      "text_lf": false,
+      "sha256": "a9738412c45d530c41e0f68f5c1e8b5d5094099575d298292dd9c16017f8c28b"
+    },
+    "output/charts/economic_stress_ranges.png": {
+      "text_lf": false,
+      "sha256": "77a96904b7b42fe587691b91cefe611f8ccc57b4f2e084c2460e5d3094643303"
+    },
+    "output/charts/historical_calibration_diagnostics.png": {
+      "text_lf": false,
+      "sha256": "3c9254b5588b0fff4537523f4e045841a29e04b101ea5a23e5eaf471585a42fe"
+    },
+    "output/charts/live_market_stress_components.png": {
+      "text_lf": false,
+      "sha256": "c6fb9a4d3b0df2aba475922bab321d9dffc6d832a63b6e78e91ec66deb7052a0"
+    },
+    "output/charts/scenario_strategic_stress.png": {
+      "text_lf": false,
+      "sha256": "9fb946f5f3b4a184500ddbfcc4e45cf0040737ff7c764728e481bb2fac6f8fbe"
+    },
+    "output/charts/strategic_disengagement_vulnerability.png": {
+      "text_lf": false,
+      "sha256": "50938929be6dcb2d1a85bb449b5f0c4947230f823614e8c96c45088cc00174df"
+    },
+    "output/methodology_and_governance.md": {
+      "text_lf": true,
+      "sha256": "7095c1f4a15cfde471611ff6c9917c02219b7ed2561cb042d120b78916e02e99"
+    },
+    "output/pdf/us_middle_east_withdrawal_executive_brief.pdf": {
+      "text_lf": false,
+      "sha256": "edbbf177b96334296144372a56dbe55cc9900c2e17389600f6357a4fb231b244"
+    },
+    "src/__init__.py": {
+      "text_lf": true,
+      "sha256": "f0ced6df59903b8555b96a7405ac5f986ea59db4b8d2a440fb7bb35f8bb5c13a"
+    },
+    "src/backtesting.py": {
+      "text_lf": true,
+      "sha256": "e536b1073f46414944b012b6bc36a2f9d0dc945c53552ed4d318bbc0cd02aa0e"
+    },
+    "src/data_refresh.py": {
+      "text_lf": true,
+      "sha256": "f84b01fbb3f0c052b72ab7e99219554c50e3a46ddf9302518f8ab4f103ecb26b"
+    },
+    "src/live_context.py": {
+      "text_lf": true,
+      "sha256": "98709cf7dc034858d64243208599462ee25ca4824bfc9052b570fd157caac15a"
+    },
+    "src/model.py": {
+      "text_lf": true,
+      "sha256": "fe33a6ec7342e56ca40cc83027383fc8b4e9a78f79cf0c5b67ceb328cf27952c"
+    },
+    "src/reporting.py": {
+      "text_lf": true,
+      "sha256": "35c703e1e13ce67477e073b1a82af8a5d0d33eef7f904fa4708f6f6b2b37c56a"
+    },
+    "tests/test_backtesting.py": {
+      "text_lf": true,
+      "sha256": "c99316754b0fc2084a9c327c5a2f7daa4a8bbdaa53aca4231a8118b1d021931d"
+    },
+    "tests/test_live_context.py": {
+      "text_lf": true,
+      "sha256": "68c81adc69290615f9658aa78ed5f8e34c9ab1f0d6c55f5fb7780e60635a9090"
+    },
+    "tests/test_model.py": {
+      "text_lf": true,
+      "sha256": "d4fb024594a38e7acd06f8ebdf6a55bf0541ed008d2cde9295693cf9507c866b"
+    }
+  }
+}

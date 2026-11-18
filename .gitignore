@@ -9,4 +9,7 @@ output/charts/*.png
 output/data/*.csv
 output/pdf/*.pdf
 tmp/
+output/sample/
+.ipynb_checkpoints/
+.DS_Store
 
